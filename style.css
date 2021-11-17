@@ -1,0 +1,183 @@
+@font-face
+{
+    font-family: iran;
+    src: url(iran.ttf);
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family: iran;
+    /* text-align: right; */
+}
+body
+{
+    font-family: iran;
+    direction: rtl;
+}
+.web-shadow {
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 23%);
+}
+.btn
+{
+    padding: 0.377rem 0.75rem 0.160rem 0.75rem !important;
+}
+@media screen and (max-width: 1200px){
+    .navbar-collapse {
+        background: #ffffff;
+        border-radius: .25rem;
+        z-index: 100;
+        padding: 30px 40px;
+    }
+}
+.navbar
+{
+    height: 70px;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+}
+.navbar-toggler-icon
+{
+    background-color: black;
+}
+.nav-item a
+{
+    color: #001f56;
+}
+.landing
+{
+    position: relative;
+    background-image: url(images/Dollarphotoclub_55375289.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.landing-txt
+{
+    /* right: 140px; */
+    top: 250px;
+    position: absolute;
+}
+.landing-txt h1
+{
+    font-weight: 900;
+}
+.landing-txt p
+{
+    color: #016285;
+    font-size: 18px;
+    font-weight: 100px;
+}
+#data-boxs
+{
+    margin-top: -80px;
+}
+#data-boxs
+{
+    padding: 0 150px;
+}
+#data-btn:hover
+{
+    background-color: rgba(1, 98, 133, 0.795) !important;
+}
+.web-services-section
+{
+    /* height: 500px; */
+}
+#service-left
+{
+    background-image: url(images/EngineeringSurveying.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#service-right
+{
+    background-color: #16272e;
+}
+#service-right h3
+{
+    font-weight: 600;
+}
+#blog-txt h3
+{
+    color: #016285;
+    font-weight: 600;
+}
+.blog-box-img
+{
+    background-image: url(images/10641451_930.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    position: relative;
+}
+.blog-box-img p
+{
+    bottom: -16px;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+#blog-a
+{
+    border: none !important;
+}
+#blog-a:hover
+{
+    color: #ab5300 !important;
+}
+.web-contact-section
+{
+    height: 300px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.web-contact-section p
+{
+    color: black !important;
+}
+#contact-left
+{
+    background-image: url(images/map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.web-footer1-section
+{
+    background-color: #16272e;
+    color: white;
+}
+.web-footer1-section a,p
+{
+    color: rgba(245, 245, 245, 0.712) !important;
+    text-decoration: none !important;
+    font-size: 14px;
+}
+.web-footer1-section a:hover
+{
+    color: white !important;
+}
+#icon a
+{
+    color:rgb(255, 255, 255,0.712)
+}
+#icon a:hover
+{
+    color: white !important;
+}
+#btn
+{
+    background-color: #a94f00 !important;
+}
+#btn:hover
+{
+    background-color: #a94f0096 !important;
+}
+.web-footer2-section
+{
+    background-color: #ac5800;
+    font-size: 14px;
+}
